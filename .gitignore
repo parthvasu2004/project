@@ -1,0 +1,47 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Logs
+logs
+*.log
+*.log.*
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build output
+dist/
+build/
+.cache/
+.tmp/
+
+# Coverage reports
+coverage/
+*.lcov
+
+# IDE/editor settings
+.vscode/
+.idea/
+*.swp
+
+# Optional: SQLite database files (if you don’t want them in repo)
+*.sqlite
+*.sqlite3
+*.db
+
+# Optional: lock files (if you prefer not to commit them)
+# package-lock.json
+# yarn.lock
